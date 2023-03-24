@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.subject ul li {
+    text-align: center;
+}
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: rgb(243, 79, 79);
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: red;
+}
+
+footer {
+    border: 1px solid black;
+    background-color: rgb(44, 42, 42);
+    text-align: center;
+    margin-top: 500px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+}
+
+header div {
+    background-image: url("std.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 400px;
+}
+
+.box-1,
+.box-2 {
+    text-align: center;
+}
+
+.reason ul li,
+header {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#img-2 span img {
+    /* background-image: url("tst.gif"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: auto;
+    height: 60vh;
+}
